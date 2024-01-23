@@ -1,0 +1,3 @@
+data_transforms_enabled: true
+wasm_per_core_memory_reservation: 41943040
+wasm_per_function_memory_limit: 4931584
