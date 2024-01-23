@@ -19,6 +19,14 @@ The demo runs using docker compose, with the following containers:
 
 The redaction flow can be customised by editing the local redaction configuration file ([config.yaml](config.yaml)), which is part of this demo repository.
 
+### Clone the Repo
+
+This demo includes the redaction transform as a Git submodule, therefore when cloning the demo be sure to include `--recurse-submodules`:
+
+```shell
+git clone --recurse-submodules https://github.com/pmw-rp/redaction-demo.git
+```
+
 ### Build & Run
 
 ```shell
